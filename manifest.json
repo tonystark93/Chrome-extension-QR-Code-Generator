@@ -1,0 +1,24 @@
+{
+  "name": "QR Code Generator",
+  "description": "QR Code Generator to easily generate QR Code for the URL", 
+  "update_url":"http://clients2.google.com/service/update2/crx",
+  "background": {
+    "scripts": ["bg.js"]
+  },
+  "version": "0.0.7",
+  "browser_action": {
+    "name": "Generate QR code for the url of the page",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "1.png"
+    }
+  },
+  "short_name": "URL QR Code Generator to generate QR code for the webpages just by clicking the extension",
+  "icons": {
+    "16": "1.png",
+    "48": "2.png",
+    "128": "3.png"
+  },
+  "permissions": ["activeTab"],
+  "manifest_version": 2
+}
